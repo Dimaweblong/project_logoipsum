@@ -347,3 +347,35 @@ padding: 50px 35px 43px 35px;
 
 
 }
+.coockies{
+    width: 80%;
+    border: 2px solid variables.$purple-color;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+position: fixed;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+background-color: #f4eeff;
+border-radius: variables.$border-radius;
+p{
+    font-size: 25px; 
+    letter-spacing: -0.3px ;
+};
+button{
+font-size: 20px;
+padding: 10px 12px;
+border-radius: variables.$border-radius;
+border: 2px solid #9393ff;
+background-color: #bdb5ff;
+width: 290px;
+letter-spacing: -0.3px ;
+cursor: pointer;
+}
+
+}
+.cookies-disabled{
+display: none;
+}

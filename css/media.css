@@ -434,5 +434,23 @@
         border-radius: 10px;
         transition: 0.5s;
         transform: translateY(-1px);
+     
+    }
+    .coockies{
+        width: 100%;
+        padding: 16px 14px;
+    }
+    .coockies p{
+        font-size:18px ;
+    }
+    .coockies button {
+        font-size: 16px;
+        padding: 10px 6px;
+        border-radius: 10px;
+        border: 2px solid #9393ff;
+        background-color: #bdb5ff;
+        width: 220px;
+        letter-spacing: -0.3px;
+        cursor: pointer;
     }
 }
